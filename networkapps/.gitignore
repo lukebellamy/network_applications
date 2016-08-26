@@ -1,0 +1,11 @@
+#log files 
+*.log
+
+#IDE files
+*.idea
+
+#OS specific files
+*.DS_Store
+
+#parameters files
+*.info
