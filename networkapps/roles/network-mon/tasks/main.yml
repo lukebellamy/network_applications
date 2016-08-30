@@ -1,8 +1,16 @@
 - name: "Install git"
   apt: name=git
-
+       force=yes
+   
 - name: "checkout project"
-  git: repo=http://username:password@git.svc.ft.com/scm/ftnet/network_applications.git
+  git: repo=http://yusuf.ogunjimi:jimMY210@git.svc.ft.com/scm/ftnet/network_applications.git
        dest=/tmp/1
        accept_hostkey=yes
        force=yes
+
+- name: "Install pip"
+
+  apt: name=python-pip
+       force=yes
+  
+- pip: requirements=/tmp/1/networkapps/requirements.txt
