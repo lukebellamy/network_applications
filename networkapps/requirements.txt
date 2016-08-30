@@ -1,10 +1,4 @@
-EasyProcess==0.2.2
 PyVirtualDisplay==0.2
-argparse==1.2.1
-extras==1.0.0
-fixtures==3.0.0
-funcsigs==1.0.2
-fuzzywuzzy==0.11.1
 lettuce==0.2.23
 lettuce-webdriver==0.3.5
 linecache2==1.0.0
@@ -19,4 +13,3 @@ sure==1.4.0
 testtools==2.2.0
 traceback2==1.4.0
 unittest2==1.1.0
-wsgiref==0.1.2
